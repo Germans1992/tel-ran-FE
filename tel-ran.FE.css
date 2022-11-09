@@ -1,0 +1,58 @@
+    img {
+        width: 400px;
+        height: 300px;
+        border: 5px solid black;
+    }
+    
+    .block p {
+        color: blue;
+        font-size: 20px;
+    }
+    
+    .block {
+        border: 2px solid black;
+    }
+    
+    .block2 {
+        margin: 20px;
+        border: 2px solid red;
+    }
+    
+    .background {
+        border: 3px solid black;
+        width: 500px;
+        margin: 20px auto;
+    }
+    
+    .black {
+        background-color: black;
+        width: 500px;
+        height: 100px;
+    }
+    
+    .red {
+        background-color: red;
+        width: 500px;
+        height: 100px;
+    }
+    
+    .yellow {
+        background-color: yellow;
+        width: 500px;
+        height: 100px;
+    }
+    
+    .YellowBlock {
+        background-color: rgb(255, 198, 26);
+        width: 950px;
+        height: 70px;
+        margin: 50px auto;
+        padding: 10px 20px;
+    }
+    
+    .borderWithText {
+        border: 2px solid black;
+        width: 950px;
+        height: 50px;
+        margin: auto;
+    }
