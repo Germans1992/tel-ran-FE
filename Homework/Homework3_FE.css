@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 120px;
+    background-color: rgb(18, 85, 69);
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+}
+
+nav {
+    background-color: black;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+}
+
+article {
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: auto;
+    height: 80px;
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.piano {
+    background-color: rgb(210, 210, 210);
+    height: 120px;
+}
+
+.pictures {
+    background-image: url(https://i.pinimg.com/originals/3c/0a/73/3c0a7384ade61934ad10eb3023d7e896.jpg);
+    height: 120px;
+}
+
+.piano img {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: url(https://img1.liveinternet.ru/images/attach/c/10/110/666/110666697_Korzina_s_cvetami__gorizontalnaya___Lara.jpg);
+    height: 40px;
+    margin: 15px auto;
+}

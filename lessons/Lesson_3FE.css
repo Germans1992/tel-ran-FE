@@ -1,0 +1,34 @@
+ol {
+    list-style: upper-roman inside none;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/* even - четное, odd - нечетное */
+
+
+/* an+b - счетчик : 4n + 1 - каждая пятая */
+
+
+/* tr:nth-child(4n + 2) { 
+    background-color: red;
+}
+
+tr:nth-child(4n + 3) {
+    background-color: blue;
+}
+
+tr:nth-child(4n + 4) {
+    background-color: yellow;
+} */
+
+.table2 {
+    margin-top: 20px;
+}

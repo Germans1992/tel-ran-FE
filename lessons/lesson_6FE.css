@@ -1,0 +1,91 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* .parent {
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+}
+
+.parent a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 2px solid white;
+    padding: 13px;
+}
+
+h1,
+h3,
+p {
+    margin-top: 15px;
+}
+
+.text {
+    padding: 15px;
+    margin-top: 30px;
+} */
+
+
+/* body {
+    padding: 30px;
+}
+
+.parent {
+    border: 5px solid black;
+    width: 600px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.block1 {
+    text-align: center;
+    background-color: aqua;
+    padding: 0 10px;
+}
+
+.block2 {
+    text-align: center;
+    background-color: green;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+.block3 {
+    text-align: center;
+    background-color: yellow;
+    padding: 0 10px;
+}
+
+.block4 {
+    text-align: center;
+    background-color: blue;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+}
+
+.block5 {
+    text-align: center;
+    background-color: red;
+    padding: 0 10px;
+} */
+
+nav {
+    display: flex;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 15px 0;
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+   }
+   
+   .imgdiv {
+       width: 300px;
+       height: 300px;
+       border: 2px solid grey;
+       background-image: url('https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg');
+       background-size: cover;
+       background-position: center;
+       border-radius: 50%;
+       box-shadow: 8px 10px 20px 10px black;
+   }
+   
+   .block2 {
+       width: 400px;
+       height: 300px;
+       padding: 50px;
+       border: 5px solid black;
+       box-sizing: border-box;
+   }

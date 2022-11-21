@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 600px;
+    font-size: 16px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.white {
+    background-color: white;
+}
+
+tr:nth-child(3n+1) {
+    background-color: violet;
+}
+
+.red {
+    background-color: lightcoral;
+}

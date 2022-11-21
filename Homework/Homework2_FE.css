@@ -1,0 +1,80 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    table {
+        width: 550px;
+        height: 300px;
+        margin-left: 200px;
+        text-align: center;
+    }
+    
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 24px;
+    }
+    
+    tr:nth-child(2n+3) td:first-child {
+        background-color: green;
+        color: white;
+    }
+    
+    tr:nth-child(2n+4) td:first-child {
+        background-color: violet;
+        color: white;
+    }
+    
+    tr:nth-child(2n+3) td:nth-child(2) {
+        background-color: violet;
+        color: white;
+        width: 100px;
+    }
+    
+    tr:nth-child(2n+4) td:nth-child(2) {
+        background-color: green;
+        color: white;
+    }
+    
+    .white {
+        background-color: white;
+        width: 350px
+    }
+    
+    .red {
+        background-color: lightcoral;
+        color: white;
+        font: bold;
+    }
+    
+    .changeColor {
+        background-color: purple;
+    }
+    
+    .duck {
+        background: url("happyDuck.png") center fixed;
+        background-size: cover;
+    }
+    
+    h1 {
+        margin: 40px;
+    }
+    
+    p {
+        margin-left: 40px;
+        padding-bottom: 14px;
+        font-size: 19px;
+    }
+    
+    #ep {
+        background-image: url("https://pngimg.com/uploads/dog/dog_PNG50375.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 20%;
+    }
